@@ -1,9 +1,69 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Spinnaker', sans-serif;
+}
+/* Navigation Bar */
+.topnav {
+    background-color: lightblue;
+    color: black;
+    position: fixed;
+    width: 100%;
+    margin: 0 0;
+    font-size: 18px;
+    height: 90px;
+    padding-top: 25px;
+    top: 0px;
+    z-index: 999;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav a:link    { color: black; }
+nav a:visited { color: black; }
+nav a:hover   { color: grey; }
+nav a:focus   { color: black}
+nav a:active  { color: grey ;}
+
+.container {
+    margin-top: 100px;
+}
 /* HTML Section */
 
 /* CSS Section */
 
 /* Bootstrap Section */
+.red {
+    color: red;
+}
 
-/* JavaScript Section */
+#bootstrap img {
+    margin: auto;
+}   
+
+#button-modal {
+    display: block;
+    margin-top: 50px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.max-height-50 {
+    max-height: 50px;
+}
+/* Script Section */ 
 
 /* jQuery Section */
