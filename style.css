@@ -48,7 +48,7 @@ nav a:active  { color: grey ;}
 }
 
 .cssimage {
-    padding-right: 250px;
+    
     height: 250px;
     float: top;
     padding-left: 75px;
@@ -60,6 +60,7 @@ nav a:active  { color: grey ;}
     text-align: center;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 50px;
 }
 .csstext {
     float: right;
@@ -69,7 +70,7 @@ nav a:active  { color: grey ;}
     height: 300px;
     text-align: center;
     text-size-adjust: 20px;
-    padding-top: 10px;
+    padding-top: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     
     
