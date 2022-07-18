@@ -42,6 +42,11 @@ nav a:active  { color: grey ;}
 /* HTML Section */
 
 /* CSS Section */
+#css {
+    scroll-margin-top: 200px;
+    margin-bottom: 100px;
+}
+
 .cssimage {
     padding-right: 250px;
     height: 250px;
@@ -94,6 +99,9 @@ body {
 
 
 /* Bootstrap Section */
+#bootstrap {
+    scroll-margin-top: -200px;
+}
 .red {
     color: red;
 }
