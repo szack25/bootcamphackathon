@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* HTML Section */
 
 /* CSS Section */
@@ -7,3 +8,42 @@
 /* JavaScript Section */
 
 /* jQuery Section */
+=======
+body {
+    
+background-color:rgb(255, 179, 108);
+
+}
+
+h1 {
+
+    font-family: "Sans","Lucida Sans","Lucida Console";
+}
+
+h3 {
+
+    font-family: "Sans","Lucida Sans","Lucida Console";
+    }
+
+p {
+    font-family: "Sans","Lucida Sans","Lucida Console";
+
+    font-size: 20px ;
+}
+
+ul {
+    font-family: "Sans","Lucida Sans","Lucida Console";
+    text-align: justify;
+}
+
+h4 {
+    font-family: "Sans", "Lucida Sans", "Lucida Console";
+    font-size: 14px;
+}
+.image {
+
+float:right;
+margin: 5px;
+
+}
+>>>>>>> branch2
