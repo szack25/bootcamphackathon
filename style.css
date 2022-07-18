@@ -126,3 +126,36 @@ body {
 /* Script Section */ 
 
 /* jQuery Section */
+
+.jQueryinfo {
+    float: right;
+    margin-left: 100px;
+    margin-right: 300px;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+
+.info {
+    width: 600px;
+    margin: 0;
+    float: left;
+}
+
+
+.jQuery {
+    font-size: 35px;
+    text-align: center;
+}
+
+.plus {
+    float: left;
+    text-align: center;
+    text-size-adjust: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+
