@@ -40,6 +40,9 @@ nav a:active  { color: grey ;}
     margin-top: 100px;
 }
 /* HTML Section */
+.htmlimg {
+padding-right: 20px;
+}
 
 /* CSS Section */
 #css {
