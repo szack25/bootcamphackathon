@@ -44,6 +44,10 @@ nav a:active  { color: grey ;}
 padding-right: 20px;
 }
 
+#html {
+    scroll-margin-top: 200px;
+}
+
 /* CSS Section */
 #css {
     scroll-margin-top: 200px;
