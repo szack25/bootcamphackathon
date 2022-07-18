@@ -1,45 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Collaborate</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <section id="html">
-        
+
     </section>
 
     <section id="css">
-        
+
     </section>
 
     <section id="bootstrap">
-        
+
     </section>
 
     <section id="javascript">
-        
+
     </section>
 
     <section id="jquery">
-        
+
+        <div class="jQueryinfo">
+
+            <div class="info">
+
+                <h1>jQuery</h1>
+                <p>jQuery is a fast, small, and feature-rich JavaScript library. </p>
+                <p>The libray contains methods that allow you to more easily perform functions.</p>
+                <p>jQuery is cross-platform javaScript libray designed to simplify client-side HTML scripting.</p>
+                <p>jQuery can be useful for aniumate HTML elemens, rgistering click events, and inserting/removing HTML.
+                </p>
+                <p>On the left is an on click animate event, where the text would disappear.</p>
+
+            </div>
+        </div>
+        <div class="example">
+
+            <meta charset="utf-8">
+
+            <title>click example</title>
+
+            <style>
+                .plus p {
+                    color: rgb(255, 0, 0);
+                    margin: 5px;
+                    cursor: pointer;
+                }
+
+                .plus p:hover {
+                    background: rgb(0, 255, 76);
+                }
+            </style>
+
+            <div class="plus">
+                <p>First Paragraph</p>
+                <p>Second Paragraph</p>
+                <p>Yet one more Paragraph</p>
+            </div>
+
+            <script src="https://code.jquery.com/jquery.js"></script>
+
+            <script>
+                $("p").click(function () {
+                    $(this).slideUp();
+                    console.log(this)
+                });
+            </script>
+
     </section>
-    
-    <!-- Collaborator #1: Create a header for the webpage-->
-
-    <!-- Collaborator #2: Find an image to add to the webpage -->
-<img src ="https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png" alt="">
-
-    <!-- Collaborator #3: Add a link to the webpage -->
-
-    <a href="https://www.google.com/">Google</a>
-
-    <!-- All Collaborators: Add some text to the page-->
-
-
-    <script src="script.js"></script>
 </body>
+
 </html>
