@@ -4,11 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time to Collaborate</title>
+    <title>Basics for Building a Website</title>
+    <link rel="icon" href="http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <header>
+
+    <nav class="topnav">
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#bootstrap">Bootstrap</a></li>
+            <li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#jquery">JQuery</a></li>
+        </ul>
+    </nav>
+    <div class="container">
 
     <section id="html">
 
@@ -16,9 +32,113 @@
 
     <section id="css">
 
+
     </section>
 
     <section id="bootstrap">
+
+        <h1>
+            CSS Overview
+        </h1>
+        <div class = "csstext">
+           <div class = "cssinfo">
+            <p>
+                     CSS stands for Cascading Style Sheets! It is a language coders use to display websites in a more formatted fashion. HTML documents are used to organize codes into different sections like divides, headers, etc. CSS documents are linked to the HTML files to make them more "pretty" or pleasing to look at. Attributes like color, sizing, and page layout can come from CSS programming. Without CSS, this page would be poorly aligned and filled with drab colors. 
+            </p>
+            <p>
+                CSS can be used either inline or externally. Inline means that within the HTML document, a CSS line could be written to modify a section of HTML. However, using CSS externally is a much better option. This is done by linking a separate document ending in .css and using id, class, and section tags to edit several sections at a time. With inline, a coder could only edit the specific section that they chose, but in an external document, a coder could modify a number of similar sections at the same time using corresponding tags!
+            </p>
+            <p>
+                CSS uses a specific syntax! In order for the code to work, a coder must follow this layout:
+               <div class = "syntax"> selector {property to change: value;} </div>
+            </p>
+            <p>
+                *All information was provided by the Columbia High School Coding Bootcamp Lectures!
+            </p>
+
+        </div>
+        </div>
+
+        <div class = "cssimage">
+            <img  class = "cssimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css image">
+        </div>
+        <div>
+            <img class = "code" src="https://www.freecodecamp.org/news/content/images/2019/09/resim-1.png" alt="code holder">
+        </div>
+        
+        
+    </section>
+
+    <section id="bootstrap">
+      <h1>Bootstrap</h1>
+      <div class="row">      
+        <div class="card col-4" style="width: 18rem;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" class="card-img-top" alt="Bootstrap Logo">
+          <div class="card-body">
+            <h5 class="card-title">Card</h5>
+            <p class="card-text">This is what is called a card. You can set an image at the top and some text right here to show off a product or an image that you took.</p>
+            
+            <button id="button-modal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Click Me
+            </button>
+          </div>
+        </div>
+              <!-- Bootstrap Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">This is a modal!</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      This is what is called a modal. You can copy and paste the code that Bootstrap gives you to create a modal! It is very useful if you would like to put something on your page without taking up too much space. It is also a great way to throw in pop ups for viewers to sign up for something or fill out a form. 
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion col-xl-8 col-sm-4 col-9" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is an accordian! This can be used to display information without taking up so much space. It is also a cool way to present some text.</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>(Bootstrap's example text:) This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <h6 class="padding-20">Below is how you can use bootstrap's variables and input it's class names to execute their pre-written CSS. All you have to do is write <span class="red">class="w-(whatever percentage)"</span> you would like it to take up of the page relative to the parent element.</h3>
+                <div class="w-25 p-3" style="background-color: #eee;">Width 25%</div>
+                  <div class="w-50 p-3" style="background-color: #eee;">Width 50%</div>
+                  <div class="w-75 p-3" style="background-color: #eee;">Width 75%</div>
+                  <div class="w-100 p-3" style="background-color: #eee;">Width 100%</div>
+                  <div class="w-auto p-3" style="background-color: #eee;">Width auto</div>
+              </div>
+        
+              <div class="max-height-50" data-bs-spy="scroll" data-bs-smooth-scroll="true" tabindex="0">
+                
+              </div>
+       
 
     </section>
 
@@ -28,9 +148,13 @@
 
     <section id="jquery">
 
+
         <div class="jQueryinfo">
 
             <div class="info">
+
+    <!-- Collaborator #2: Find an image to add to the webpage -->
+
 
                 <h1>jQuery</h1>
                 <p>jQuery is a fast, small, and feature-rich JavaScript library. </p>
@@ -40,13 +164,18 @@
                 </p>
                 <p>On the left is an on click animate event, where the text would disappear.</p>
 
+
             </div>
         </div>
         <div class="example">
 
+    
+
+
             <meta charset="utf-8">
 
             <title>click example</title>
+
 
             <style>
                 .plus p {
@@ -79,3 +208,10 @@
 </body>
 
 </html>
+
+    <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper (Bootstrap JS) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
+
