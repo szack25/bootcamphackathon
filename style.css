@@ -6,22 +6,32 @@ background-color:rgb(255, 179, 108);
 
 h1 {
 
-font-family: "Lucida Console", "Monaco", "Courier New";
+    font-family: "Sans","Lucida Sans","Lucida Console";
 }
 
 h3 {
 
-    font-family: "Lucida Console", "Monaco", "Courier New";
+    font-family: "Sans","Lucida Sans","Lucida Console";
     }
 
 p {
-    font-family: "Monaco", "Lucida Console", "Courier New";
+    font-family: "Sans","Lucida Sans","Lucida Console";
+
+    font-size: 20px ;
 }
 
 ul {
-    font-family: "Monaco", "Lucida Console", "Courier New";
+    font-family: "Sans","Lucida Sans","Lucida Console";
+    text-align: justify;
 }
 
 h4 {
-    font-family: "Monaco", "Lucida Console", "Courier New";
+    font-family: "Sans", "Lucida Sans", "Lucida Console";
+    font-size: 14px;
+}
+.image {
+
+float:right;
+margin: 5px;
+
 }
