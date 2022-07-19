@@ -1,11 +1,10 @@
-/* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Spinnaker', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* Navigation Bar */
 .topnav {
@@ -131,6 +130,16 @@ body {
     max-height: 50px;
 }
 /* Script Section */ 
+
+#javascript img {
+    float: left;
+    padding-right: 20px;
+}
+
+
+#javascript {
+    margin-bottom: 240px;
+}
 
 /* jQuery Section */
 
